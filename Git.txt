@@ -62,6 +62,7 @@ git fetch --prune                                         # 獲取所有原創�
 git pull origin master                                    # 獲取遠端分支master並merge到當前分支
 git mv README README2                                     # 重命名檔README為README2
 git reset --hard HEAD                                     # 將當前版本重置為HEAD（通常用於merge失敗回退）
+git restore --staged 'file name'                          # 將當前版本退回
 git rebase
 git branch -d hotfixes/BJVEP933                           # 刪除分支hotfixes/BJVEP933（本分支修改已合併到其他分支）
 git branch -D hotfixes/BJVEP933                           # 強制刪除分支hotfixes/BJVEP933
@@ -86,3 +87,10 @@ git grep "delete from"                                    # 檔中搜索文本�
 git grep -e '#define' --and -e SORT_DIRENT
 git gc
 git fsck
+
+
+github
+Git Hub
+
+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
+
